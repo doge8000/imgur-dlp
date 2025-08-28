@@ -16,4 +16,4 @@ Basic example usage:
 imgur-dlp -out=name -url=https://imgur.com/Y3dR5i0
 
 Advanced example usage:
-imgur-dlp -out name -url=https://imgur.com/Y3dR5i0 deletedhashes=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,35a0932c61e09a8c1cad9eec75b67a03602056463ed210310d2a09cf0b002ed5,350c25fc445411a27092e1dbc2ec2e53f9895f109b52b8bc5aa466f1775bbe7d,9b5936f4006146e4e1e9025b474c02863c0b5614132ad40db4b925a10e8bfbb9 deleteifs=-10000/gifv cleardeletedfiledata=true cleardeletedfileextension=true deleteifnofile=true
+imgur-dlp -out name -url=https://imgur.com/Y3dR5i0 -deletedhashes=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,35a0932c61e09a8c1cad9eec75b67a03602056463ed210310d2a09cf0b002ed5,350c25fc445411a27092e1dbc2ec2e53f9895f109b52b8bc5aa466f1775bbe7d,9b5936f4006146e4e1e9025b474c02863c0b5614132ad40db4b925a10e8bfbb9 -deleteifs=-10000/gifv -cleardeletedfiledata=true -cleardeletedfileextension=true -deleteifnofile=true
